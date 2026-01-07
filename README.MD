@@ -1,12 +1,13 @@
-##### 📄 README.md
+###### 📄 README.md
 
-## My PC Live Network Connections
+##### My PC Live Network Connections is a real-time network connection dashboard for anyone who wants to know what their PC is connected to.
 
-**My PC Live Network Connections** is a terminal-style client-server web application that provides an **advanced view of network connections**, extending the functionality of Microsoft SysInternals TCP tools (`tcpview.exe`, `tcpview64.exe`, `tcpvcon.exe`, `tcpvcon64.exe`) and more.
+##### **My PC Live Network Connections** is a terminal-style client-server web application that provides an **advanced view of network connections**, extending the functionality of Microsoft SysInternals TCP tools (`tcpview.exe`, `tcpview64.exe`, `tcpvcon.exe`, `tcpvcon64.exe`) and more.
 
-It offers a **real-time dashboard for monitoring network connections**, including remote DNS resolution and IP reputation checks via AbuseIPDB and VirusTotal APIs.
 
-This project uses an Nginx reverse proxy to establish a secure TLS (HTTPS) connection on `https://127.0.0.1`. All client requests from the React frontend are terminated at Nginx and proxied to the Python (FastAPI) backend over HTTP. 
+###### It offers a **real-time dashboard for monitoring network connections**, including remote DNS resolution and IP reputation checks via AbuseIPDB and VirusTotal APIs.
+
+###### This project uses an Nginx reverse proxy to establish a secure TLS (HTTPS) connection on `https://127.0.0.1`. All client requests from the React frontend are terminated at Nginx and proxied to the Python (FastAPI) backend over HTTP. 
 
 ## 🛠️ Tech Stack
 
@@ -21,9 +22,9 @@ This project uses an Nginx reverse proxy to establish a secure TLS (HTTPS) conne
 [![Firefox](https://img.shields.io/badge/Browser-Firefox-orange?logo=firefox)](https://www.mozilla.org/firefox/)
 [![Safari](https://img.shields.io/badge/Browser-Safari-lightgrey?logo=safari)](https://www.apple.com/safari/)
 [![Opera](https://img.shields.io/badge/Browser-Opera-red?logo=opera)](https://www.opera.com/)
-[![License](https://img.shields.io/github/license/PrzemyslawZabicki/xtcp-view-network-connections-dashboard)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/PrzemyslawZabicki/xtcp-view-network-connections-dashboard?style=social)](https://github.com/PrzemyslawZabicki/xtcp-view-network-connections-dashboard/stargazers)
-[![Issues](https://img.shields.io/github/issues/PrzemyslawZabicki/xtcp-view-network-connections-dashboard)](https://github.com/PrzemyslawZabicki/xtcp-view-network-connections-dashboard/issues)
+[![License](https://img.shields.io/github/license/PrzemyslawZabicki/my-pc-live-network-connections)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/PrzemyslawZabicki/my-pc-live-network-connections?style=social)](https://github.com/PrzemyslawZabicki/my-pc-live-network-connections/stargazers)
+[![Issues](https://img.shields.io/github/issues/PrzemyslawZabicki/my-pc-live-network-connections)](https://github.com/PrzemyslawZabicki/my-pc-live-network-connections/issues)
 
 ---
 
@@ -70,7 +71,7 @@ This project uses an Nginx reverse proxy to establish a secure TLS (HTTPS) conne
 ## 🖥️ GUI Overview
 
 Application UI
-![Alt text description](help/screenshot.png)
+![Alt text description](help/screenshot.jpg)
 
 
 The dashboard includes:
@@ -114,7 +115,7 @@ The dashboard includes:
 │
 ├── help/                   # Documentation & screenshots
 │   ├── nginx.conf          # Example nginx.conf
-|
+│   └── screenshot.jpg      # UI screenshot without data
 │
 ├── package.json
 ├── package-lock.json
