@@ -222,12 +222,6 @@ function App() {
   // -------------------------------
   return (
     <div style={{ backgroundColor: "black", color: "white", fontFamily: "Consolas", fontSize: "10px", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
-      <header style={{ padding: "4px", borderBottom: "0px solid white" }}>
-        <h1 style={{ marginTop: "4px", fontSize: "14px" }}>
-          My PC Live Network Connections
-        </h1>
-      </header>
-
       <h2 style={{ fontSize: "12px", marginBottom: "12px", marginLeft: "16px" }}>
         Live Connections<br></br>{" "}
         {loadingConnections && (
